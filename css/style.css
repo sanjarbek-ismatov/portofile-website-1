@@ -1,27 +1,53 @@
-*{
-  padding: 0;
-  margin: 0;
-  border: 1px solid gray;
+@font-face {
+    src: url(../fonts/Pushster-Regular.ttf);
 }
-header{
-  height: 70px;
-  display: flex;
+
+* {
+    padding: 0;
+    margin: 0;
 }
-header div{
-  height: 100%;
+
+body {
+    background-image: url('https://miro.medium.com/max/1400/0*hDAyhnOx767w5qma.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
-.header-logo{
-  width: 200px;
+
+header {
+    height: 70px;
+    display: flex;
+    position: fixed;
 }
-.header-menu{
-  width: 100%;
+
+header div {
+    height: 100%;
 }
-.profile{
-  width: 200px;
+
+.header-logo {
+    width: 200px;
+    font-family: 'Pushster', cursive;
+    margin-left: 10px;
+    color: #fff;
 }
-main{
-  width: 100%;
+
+.header-logo h1 {
+    box-sizing: border-box;
+    margin: 2px auto;
 }
-footer{
-  height: 100px;
+
+.header-menu {
+    width: 100%;
+}
+
+.profile {
+    width: 200px;
+}
+
+main {
+    width: 100%;
+}
+
+footer {
+    height: 100px;
 }
